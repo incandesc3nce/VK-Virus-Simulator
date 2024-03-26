@@ -147,7 +147,7 @@ class StartViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        let startAlert = UIAlertController(title: "Добро пожаловать!", message: "Данное приложение создано в целях симуляции и визуализации распространение инфекции в группе людей.\nДля начала, введите количество людей в группе, количество заражаемых людей при контакте и период распространения инфекции.", preferredStyle: .alert)
+        let startAlert = UIAlertController(title: "Добро пожаловать!", message: "Данное приложение создано в целях симуляции и визуализации распространения инфекции в группе людей.\nДля начала, введите количество людей в группе, количество заражаемых людей при контакте и период распространения инфекции.", preferredStyle: .alert)
         startAlert.addAction(UIAlertAction(title: "Начать", style: .default))
         
         present(startAlert, animated: true)
