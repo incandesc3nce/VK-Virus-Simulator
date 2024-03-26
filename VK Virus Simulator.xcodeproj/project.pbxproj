@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C12F7712BB1CBA0001C2507 /* Infection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C12F7702BB1CBA0001C2507 /* Infection.swift */; };
+		2C12F7742BB1DD1E001C2507 /* CollectionViewSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C12F7732BB1DD1E001C2507 /* CollectionViewSetup.swift */; };
 		2CB867262BB04EB3008402A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB867252BB04EB3008402A4 /* AppDelegate.swift */; };
 		2CB867282BB04EB3008402A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB867272BB04EB3008402A4 /* SceneDelegate.swift */; };
 		2CB8672A2BB04EB3008402A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB867292BB04EB3008402A4 /* ViewController.swift */; };
 		2CB8672F2BB04EB5008402A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB8672E2BB04EB5008402A4 /* Assets.xcassets */; };
 		2CB867322BB04EB5008402A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB867302BB04EB5008402A4 /* LaunchScreen.storyboard */; };
+		2CB8673D2BB056C8008402A4 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB8673C2BB056C8008402A4 /* Parameters.swift */; };
+		2CB867402BB0630C008402A4 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB8673F2BB0630C008402A4 /* HideKeyboard.swift */; };
+		2CB867432BB06575008402A4 /* UIColorConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB867422BB06575008402A4 /* UIColorConverter.swift */; };
+		2CB867452BB066C6008402A4 /* SimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB867442BB066C6008402A4 /* SimViewController.swift */; };
+		2CB867472BB06E05008402A4 /* keyboardWillShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB867462BB06E05008402A4 /* keyboardWillShow.swift */; };
+		2CB867492BB07072008402A4 /* StartSimulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB867482BB07072008402A4 /* StartSimulation.swift */; };
+		2CF93A562BB19DBD00DBB70D /* updatePeopleLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF93A552BB19DBD00DBB70D /* updatePeopleLabels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C12F7702BB1CBA0001C2507 /* Infection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infection.swift; sourceTree = "<group>"; };
+		2C12F7732BB1DD1E001C2507 /* CollectionViewSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewSetup.swift; sourceTree = "<group>"; };
 		2CB867222BB04EB3008402A4 /* VK Virus Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VK Virus Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB867252BB04EB3008402A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CB867272BB04EB3008402A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +33,13 @@
 		2CB8672E2BB04EB5008402A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CB867312BB04EB5008402A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CB867332BB04EB5008402A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB8673C2BB056C8008402A4 /* Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		2CB8673F2BB0630C008402A4 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
+		2CB867422BB06575008402A4 /* UIColorConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorConverter.swift; sourceTree = "<group>"; };
+		2CB867442BB066C6008402A4 /* SimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimViewController.swift; sourceTree = "<group>"; };
+		2CB867462BB06E05008402A4 /* keyboardWillShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardWillShow.swift; sourceTree = "<group>"; };
+		2CB867482BB07072008402A4 /* StartSimulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSimulation.swift; sourceTree = "<group>"; };
+		2CF93A552BB19DBD00DBB70D /* updatePeopleLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updatePeopleLabels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +84,10 @@
 		2CB867392BB04EFA008402A4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2CB867412BB0656B008402A4 /* Functions */,
+				2CB8673E2BB06300008402A4 /* Extensions */,
+				2CB8673C2BB056C8008402A4 /* Parameters.swift */,
+				2C12F7702BB1CBA0001C2507 /* Infection.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -73,6 +95,7 @@
 		2CB8673A2BB04F05008402A4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				2CB867442BB066C6008402A4 /* SimViewController.swift */,
 				2CB867292BB04EB3008402A4 /* ViewController.swift */,
 				2CB867252BB04EB3008402A4 /* AppDelegate.swift */,
 				2CB867272BB04EB3008402A4 /* SceneDelegate.swift */,
@@ -86,6 +109,26 @@
 				2CB867302BB04EB5008402A4 /* LaunchScreen.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		2CB8673E2BB06300008402A4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2CB8673F2BB0630C008402A4 /* HideKeyboard.swift */,
+				2CB867462BB06E05008402A4 /* keyboardWillShow.swift */,
+				2CF93A552BB19DBD00DBB70D /* updatePeopleLabels.swift */,
+				2C12F7732BB1DD1E001C2507 /* CollectionViewSetup.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2CB867412BB0656B008402A4 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				2CB867422BB06575008402A4 /* UIColorConverter.swift */,
+				2CB867482BB07072008402A4 /* StartSimulation.swift */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +201,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB867452BB066C6008402A4 /* SimViewController.swift in Sources */,
+				2C12F7712BB1CBA0001C2507 /* Infection.swift in Sources */,
+				2CB867402BB0630C008402A4 /* HideKeyboard.swift in Sources */,
 				2CB8672A2BB04EB3008402A4 /* ViewController.swift in Sources */,
+				2C12F7742BB1DD1E001C2507 /* CollectionViewSetup.swift in Sources */,
+				2CB867492BB07072008402A4 /* StartSimulation.swift in Sources */,
+				2CB867472BB06E05008402A4 /* keyboardWillShow.swift in Sources */,
 				2CB867262BB04EB3008402A4 /* AppDelegate.swift in Sources */,
 				2CB867282BB04EB3008402A4 /* SceneDelegate.swift in Sources */,
+				2CB867432BB06575008402A4 /* UIColorConverter.swift in Sources */,
+				2CB8673D2BB056C8008402A4 /* Parameters.swift in Sources */,
+				2CF93A562BB19DBD00DBB70D /* updatePeopleLabels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,9 +362,9 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "VK Virus Sim";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -343,9 +395,9 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "VK Virus Sim";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
