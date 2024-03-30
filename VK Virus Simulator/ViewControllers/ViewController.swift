@@ -25,8 +25,6 @@ class StartViewController: UIViewController {
         
         view = UIView()
         
-        // we need to make 3 lables (Количество людей в группе, Заражений при контакте, Период заражения), 3 text fields, where you should only input Int numbers, and 1 button (Запустить моделирование)
-
         peopleCountLabel = UILabel()
         peopleCountLabel.text = "Количество людей в группе"
         peopleCountLabel.font = UIFont.boldSystemFont(ofSize: 20)
