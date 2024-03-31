@@ -71,7 +71,7 @@ class StartViewController: UIViewController {
 
         infectPeriodTextField = UITextField()
         infectPeriodTextField.placeholder = "Введите число"
-        infectPeriodTextField.keyboardType = .numbersAndPunctuation
+        infectPeriodTextField.keyboardType = .decimalPad
         infectPeriodTextField.translatesAutoresizingMaskIntoConstraints = false
         infectPeriodTextField.returnKeyType = .done
         infectPeriodTextField.backgroundColor = .white
